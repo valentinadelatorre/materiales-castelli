@@ -1,103 +1,149 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+    <main className="bg-white text-black">
+       <header className="w-full bg-white shadow">
+
+  <div className="max-w-7xl mx-auto px-2 py-0 flex justify-between items-center">
+  <img src="/logomateriales.png" alt="Materiales Castelli" className="h-24 w-auto" />
+
+    <nav className="space-x-6 hidden md:block">
+      <a href="#servicios" className="text-[#05aced] font-bold">Servicios</a>
+      <a href="#productos" className="text-[#05aced] font-bold">Productos</a>
+      <a href="#nosotros" className="text-[#05aced] font-bold">Nosotros</a>
+      <a href="#contacto" className="text-[#05aced] font-bold">Contacto</a>
+    </nav>
+  </div>
+</header>
+      {/* HERO */}
+      <section className="relative w-full h-[90vh] overflow-hidden">
+  {/* Fondo con imagen */}
+  <img
+    src="/fondo-materiales.jpg"
+    alt="Materiales de construcción"
+    className="absolute inset-0 w-full h-full object-cover scale-105"
+  />
+  {/* Capa oscura encima para mejorar contraste */}
+  <div className="absolute inset-0 bg-black/40" />
+
+  {/* Caja de texto con efecto glass/3D */}
+  <div className="relative z-10 h-full flex items-center justify-center">
+    <div className="backdrop-blur-md bg-white/30 border border-white/20 shadow-xl rounded-3xl px-14 py-8 max-w-5xl text-center text-gray-100">
+      <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
+      Líderes en abastecimiento de materiales para la construcción
+      </h1>
+      <p className="text-lg md:text-xl mb-6 text-gray-100">
+        Calidad, stock y atención personalizada en un solo lugar.
+      </p>
+      <a
+        href="#productos"
+        className="inline-block px-6 py-2 rounded-full border border-white bg-[#05aced] hover:text-black transition"
+      >
+        Ver todas
+      </a>
     </div>
+  </div>
+</section>
+
+
+
+
+
+  
+
+      {/* PRODUCTOS */}
+      <section
+  id="productos"
+  className="relative z-20 -mt-32 px-4 py-16 bg-gray-100 rounded-t-3xl shadow-xl max-w-7xl mx-auto"
+>
+  <h2 className="text-3xl font-bold text-center mb-10">Productos</h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    {/* Tarjeta de producto */}
+    {[
+      { nombre: "Obra Gruesa", imagen: "/obragruesa.jpg" },
+      { nombre: "Ferreteria", imagen: "/ferreteria.jpg" },
+      { nombre: "Sanitarios", imagen: "/sanitarios.jpg" },
+      { nombre: "Revestimientos", imagen: "/revestimientos.jpg" },
+      { nombre: "PVC", imagen: "/pvc.jpg" },
+      { nombre: "Awaduct", imagen: "/awaduct.jpg" },
+      
+      
+    ].map((producto) => (
+      <div key={producto.nombre} className="bg-white rounded-2xl shadow-lg drop-shadow-[0_10px_20px_rgba(0,191,255,0.5)] p-4 text-center">
+        <img
+          src={producto.imagen}
+          alt={producto.nombre}
+          className="w-full h-40 object-contain mb-4 rounded-lg"
+        />
+        <h3 className="text-lg font-semibold mb-2">{producto.nombre}</h3>
+        <a
+          href="#"
+          className="inline-block border border-black px-4 py-1 rounded-full text-sm font-medium bg-[#05aced] hover:text-white transition"
+        >
+          Ver opciones
+        </a>
+      </div>
+    ))}
+  </div>
+</section>
+
+
+      {/* NOSOTROS */}
+      <section className="py-20 px-4 bg-gray-50 text-center">
+        <h2 className="text-3xl font-bold mb-6">Sobre Nosotros</h2>
+        <p className="max-w-3xl mx-auto text-lg">
+          En Materiales Castelli trabajamos hace años para ofrecer a nuestros clientes los mejores materiales
+          de construcción del mercado. Nos destacamos por nuestro compromiso, atención personalizada y una amplia
+          variedad de productos para todas las etapas de tu obra.
+        </p>
+      </section>
+
+      {/* SERVICIOS DESTACADOS */}
+      <section className="py-20 px-4 bg-gray-100 text-center">
+        <h2 className="text-3xl font-bold mb-10">Nuestros Servicios</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto drop-shadow-[0_10px_25px_#05aced]">
+          <div className="p-6 bg-white rounded-xl shadow">Entrega a domicilio</div>
+          <div className="p-6 bg-white rounded-xl shadow">Atención personalizada</div>
+          <div className="p-6 bg-white rounded-xl shadow">Stock permanente</div>
+        </div>
+      </section>
+
+      
+
+      {/* CONTACTO */}
+      <section className="py-20 px-4 bg-gray-100 text-black text-center">
+        <h2 className="text-3xl font-bold mb-6">Contacto</h2>
+        <form className="max-w-2xl mx-auto space-y-4">
+          <input type="text" placeholder="Nombre" className="w-full p-3 rounded border" />
+          <input type="email" placeholder="Email" className="w-full p-3 rounded border" />
+          <textarea placeholder="Mensaje" className="w-full p-3 rounded border h-32" />
+          <input type="file" className="w-full" />
+          <button type="submit" className="w-full bg-[#05aced] text-white py-3 rounded">
+            Enviar mensaje
+          </button>
+        </form>
+        <p className="mt-6">📞 1127712390 | 📞 1160288911</p>
+        <p>📧 materialescastelli@gmail.com</p>
+      </section>
+      
+      {/* VENTAJAS */}
+      <section className="py-20 px-4 bg-gray-100 text-center">
+        <h2 className="text-3xl font-bold mb-10">¿Por qué elegirnos?</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto drop-shadow-[0_10px_25px_#05aced]">
+          <div className="p-6 bg-white rounded-xl shadow">Calidad garantizada</div>
+          <div className="p-6 bg-white rounded-xl shadow">Entrega rápida</div>
+          <div className="p-6 bg-white rounded-xl shadow">Atención directa por WhatsApp</div>
+        </div>
+      </section>
+      
+
+      {/* FOOTER */}
+      <footer className="bg-black text-white py-10 text-center text-sm">
+        <p>&copy; 2025 Materiales Castelli. Todos los derechos reservados.</p>
+        <p>Diseño inspirado en materialesnuevacasa.com.ar</p>
+      </footer>
+    </main>
   );
 }

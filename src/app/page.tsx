@@ -58,7 +58,7 @@ export default function Home() {
 
       {/* PRODUCTOS */}
       
-      <section id="productos" className="relative z-20 -mt-10 px-4 py-16 bg-[#e0f2fe] rounded-t-3xl shadow-xl max-w-7xl mx-auto">
+  <section id="productos" className="relative z-20 -mt-10 px-4 py-16 bg-[#e0f2fe] rounded-t-3xl shadow-xl max-w-7xl mx-auto">
   <h1 className="text-5xl font-bold text-center mb-10">Productos</h1>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

@@ -9,7 +9,7 @@ export default function ObraGruesa() {
     
     {/* Tarjeta 1 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Perfileria"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
     backgroundImage: "url('https://i.postimg.cc/BZ536Y8W/Screenshot-2025-04-22-at-1-12-26-PM.png')",
@@ -22,7 +22,7 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 2 */}
 <a
-  href="#"
+  href="/productos/obragruesa/Aridosenbolson"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
     backgroundImage: "url('https://i.postimg.cc/QxgFjdbD/Screenshot-2025-04-22-at-1-01-47-PM.png')",
@@ -36,7 +36,7 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 3 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Cemento"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
     backgroundImage: "url('https://i.postimg.cc/qqN7f2LB/Screenshot-2025-04-22-at-1-08-43-PM.png')",
@@ -54,7 +54,7 @@ export default function ObraGruesa() {
     
     {/* Tarjeta 4 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Ladrilloshuecos"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
     backgroundImage: "url('https://i.postimg.cc/T2N9rG5n/Screenshot-2025-04-22-at-1-18-31-PM.png')",
@@ -67,7 +67,7 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 5 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Ladrilloscomunes"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
     backgroundImage: "url('https://i.postimg.cc/Cdynmvgp/Screenshot-2025-04-22-at-1-21-22-PM.png')",
@@ -80,7 +80,7 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 6 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Varillasdehierro"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
     backgroundImage: "url('https://i.postimg.cc/qRSGHxTj/Screenshot-2025-04-22-at-1-23-36-PM.png')",
@@ -99,7 +99,7 @@ export default function ObraGruesa() {
     
     {/* Tarjeta 7 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Derivadosdehierro"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
     backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",

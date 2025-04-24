@@ -114,7 +114,7 @@ export default function ObraGruesa() {
     <a href="/productos/obragruesa/Aditivosvinilicos"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/VLyNP5Q9/Screenshot-2025-04-24-at-12-01-57-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -124,10 +124,10 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 9 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Yesos"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/QN6csQxL/Screenshot-2025-04-24-at-12-19-39-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -142,10 +142,10 @@ export default function ObraGruesa() {
     
     {/* Tarjeta 10 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Pegamentoweber"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/fWxqzgS3/Screenshot-2025-04-24-at-12-30-42-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -155,10 +155,10 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 11 */}
     <a
-  href="#"
+  href="/productos/obragruesa/PegamentoKlaukol"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/wvKKPyZn/Screenshot-2025-04-24-at-12-47-19-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -168,10 +168,10 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 12 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Hidrofugos"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/ZRMLj2Rc/Screenshot-2025-04-24-at-1-07-46-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -186,10 +186,10 @@ export default function ObraGruesa() {
     
     {/* Tarjeta 13 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Canosdehormigon"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/1z3zYMpN/Screenshot-2025-04-24-at-1-49-56-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -199,10 +199,10 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 14 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Telgoporyderivados"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/3x7CSynD/Screenshot-2025-04-24-at-2-00-15-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -212,10 +212,10 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 15 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Bloquedehormigon"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/FFwV5Csc/Screenshot-2025-04-24-at-2-18-54-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function AditivosVinilicos() {
-  const [mainImage, setMainImage] = useState('https://i.postimg.cc/1tgpnD5b/Screenshot-2025-04-24-at-2-00-40-PM.png');
+  const [mainImage, setMainImage] = useState('https://i.postimg.cc/vBpHTsCW/Screenshot-2025-04-24-at-1-51-36-PM.png');
 
   return (
     <div className="bg-black min-h-screen py-16 px-4 text-white">
@@ -12,9 +12,9 @@ export default function AditivosVinilicos() {
         {/* Miniaturas */}
         <div className="flex md:flex-col gap-4">
           {[
-            'https://i.postimg.cc/1tgpnD5b/Screenshot-2025-04-24-at-2-00-40-PM.png',
-            'https://i.postimg.cc/SNLcMSkQ/Screenshot-2025-04-24-at-1-57-27-PM.png',
-            'https://i.postimg.cc/mgXzYhq4/Screenshot-2025-04-24-at-1-57-45-PM.png',
+            'https://i.postimg.cc/vBpHTsCW/Screenshot-2025-04-24-at-1-51-36-PM.png',
+            'https://i.postimg.cc/wj0qJJSx/Screenshot-2025-04-24-at-1-50-42-PM.png',
+            'https://i.postimg.cc/LsGMBVvS/Screenshot-2025-04-24-at-1-51-04-PM.png',
           
           ].map((src, index) => (
             <img
@@ -35,13 +35,12 @@ export default function AditivosVinilicos() {
             <img src={mainImage} className="w-full h-full object-cover transition duration-500" />
           </div>
           <h2 className="text-2xl font-extrabold text-gray-800 mb-2 text-center">
-    Telgopor y Derivados 
+    Caños de Hormigón
   </h2>
 
   <p className="text-black text-sm mb-4 font-bold w-full text-center">
-    <p>- LADRILLO DE TELGOPOR PARA TECHO 10cm</p>
-    <p>- LADRILLO DE TELGOPOR PARA TECHO 12cm</p>          
-    <p>- BOLSA DE TELGOPOR MOLIDO 100lts</p>
+    <p>- CAÑO HORMIGON 30x1200</p>
+    <p>- CAÑO HORMIGON 40x1200</p>
   </p>
 
   <button className="bg-[#05aced] text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-600 transition">

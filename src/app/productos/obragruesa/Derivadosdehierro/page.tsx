@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function AditivosVinilicos() {
-  const [mainImage, setMainImage] = useState('https://i.postimg.cc/hP6rcS8s/Screenshot-2025-04-23-at-2-46-24-PM.png');
+  const [mainImage, setMainImage] = useState('https://i.postimg.cc/ZnhHtmGn/Screenshot-2025-04-23-at-5-33-13-PM.png');
 
   return (
     <div className="bg-black min-h-screen py-16 px-4 text-white">

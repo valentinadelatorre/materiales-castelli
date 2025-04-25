@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function AditivosVinilicos() {
-  const [mainImage, setMainImage] = useState('https://i.postimg.cc/NjP6r0mr/Screenshot-2025-04-24-at-10-31-03-PM.png');
+  const [mainImage, setMainImage] = useState('https://i.postimg.cc/VN5ydYpd/Screenshot-2025-04-24-at-11-53-18-PM.png');
 
   return (
     <div className="bg-black min-h-screen py-16 px-4 text-white">
@@ -12,8 +12,10 @@ export default function AditivosVinilicos() {
         {/* Miniaturas */}
         <div className="flex md:flex-col gap-4">
           {[
-            'https://i.postimg.cc/NjP6r0mr/Screenshot-2025-04-24-at-10-31-03-PM.png',
-            'https://i.postimg.cc/ZqhQ2jsc/Screenshot-2025-04-24-at-10-30-39-PM.png',
+            'https://i.postimg.cc/VN5ydYpd/Screenshot-2025-04-24-at-11-53-18-PM.png',
+            'https://i.postimg.cc/LXBVSPDf/Screenshot-2025-04-24-at-11-53-44-PM.png',
+            'https://i.postimg.cc/fRnkcPDz/Screenshot-2025-04-24-at-11-54-59-PM.png',
+            'https://i.postimg.cc/RVMvvzSn/Screenshot-2025-04-24-at-11-55-40-PM.png',
           
           ].map((src, index) => (
             <img
@@ -34,12 +36,14 @@ export default function AditivosVinilicos() {
             <img src={mainImage} className="w-full h-full object-cover transition duration-500" />
           </div>
           <h2 className="text-2xl font-extrabold text-gray-800 mb-2 text-center">
-    Áridos en Bolsa
+    Cintas Métricas
   </h2>
 
   <p className="text-black text-sm mb-4 font-bold w-full text-center">
-    <p>- BOLSA ARENA x 30kg</p>
-    <p>- BOLSA PIEDRA x 30kg</p>
+    <p>- CINTA MÉTRICA 3mts REFORZADA</p>
+    <p>- CINTA MÉTRICA 5mts REFORZADA</p>
+    <p>- CINTA MÉTRICA 7mts REFORZADA</p>
+    <p>- CINTA AGRIMENSOR 30mts REFORZADA</p>
   </p>
 
   <button className="bg-[#05aced] text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-600 transition">

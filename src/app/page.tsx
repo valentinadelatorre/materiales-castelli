@@ -64,7 +64,7 @@ export default function Home() {
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
     {[
       { nombre: "Obra Gruesa", imagen: "/obragruesa.jpg", ruta: "/productos/obragruesa" },
-      { nombre: "Ferreteria", imagen: "/ferreteria.jpg", ruta: "#" },
+      { nombre: "Ferreteria", imagen: "/ferreteria.jpg", ruta: "/prod/ferreteria" },
       { nombre: "Sanitarios", imagen: "/sanitarios.jpg", ruta: "#" },
       { nombre: "Revestimientos", imagen: "/revestimientos.jpg", ruta: "#" },
       { nombre: "PVC", imagen: "/pvc.jpg", ruta: "#" },

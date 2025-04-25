@@ -1,49 +1,51 @@
 import Link from 'next/link';
 
-export default function ObraGruesa() {
+export default function Ferreteria() {
     return (
-        <div className="bg-black min-h-screen p-10">
-  <h2 className="text-5xl font-extrabold text-white mb-16 text-center">Materiales de Obra Gruesa</h2>
+      <div className="bg-black min-h-screen p-10">
+        <h2 className="text-5xl font-extrabold text-white mb-16 text-center">
+          Productos de Ferretería
+        </h2>
 
   <div className="flex justify-center gap-20 mb-20 drop-shadow-[0_10px_25px_#05aced]">
     
     {/* Tarjeta 1 */}
     <a
-  href="/productos/obragruesa/Perfileria"
+  href="/prod/ferreteria/barretas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/s2TxMmXJ/Screenshot-2025-04-24-at-10-45-45-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/658Zc5YV/Screenshot-2025-04-24-at-11-37-49-PM.png)",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Perfilería
+    Barretas
   </h3>
 </a>
 
     {/* Tarjeta 2 */}
 <a
-  href="/productos/obragruesa/Aridosenbolson"
+  href="/prod/ferreteria/cajasdeluz"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/3xsjNKkB/Screenshot-2025-04-24-at-10-40-54-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/769njHGH/Screenshot-2025-04-24-at-11-43-19-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Áridos en Bolsón
+    Cajas de Luz
   </h3>
 </a>
 
 
     {/* Tarjeta 3 */}
     <a
-  href="/productos/obragruesa/Cemento"
+  href="/prod/ferreteria/cintasmetricas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/52KzQfjG/Screenshot-2025-04-24-at-10-42-27-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/cJtYx3xC/Screenshot-2025-04-24-at-11-53-00-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Bolsas de Cemento
+    Cintas Métricas
   </h3>
 </a>
     
@@ -54,27 +56,27 @@ export default function ObraGruesa() {
     
     {/* Tarjeta 4 */}
     <a
-  href="/productos/obragruesa/Ladrilloshuecos"
+  href="/prod/ferreteria/pegamentodundun"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/90wNRcdY/Screenshot-2025-04-24-at-10-50-55-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/CKK7j7GK/Screenshot-2025-04-25-at-12-03-48-AM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Ladrillos Huecos
+    Pegamento Dundun
   </h3>
 </a>
 
     {/* Tarjeta 5 */}
     <a
-  href="/productos/obragruesa/Ladrilloscomunes"
+  href="/prod/ferreteria/porcellanato"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/SRpYbrx7/Screenshot-2025-04-24-at-10-51-57-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/rmL8ZqTn/Screenshot-2025-04-25-at-12-16-23-AM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Ladrillos Comunes
+    Porcellanatos
   </h3>
 </a>
 
@@ -87,7 +89,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Varillas de Hierro
+    Discos de Corte
   </h3>
 </a>
     
@@ -106,7 +108,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Derivados de Hierro
+    Escuadras
   </h3>
 </a>
 
@@ -118,7 +120,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Aditivos Vinílicos
+    Espátulas
   </h3>
 </a> 
 
@@ -131,7 +133,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Yesos
+    Fratacho Algarrobo
   </h3>
 </a>
     
@@ -149,7 +151,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Pegamentos Weber
+    Grinfas
   </h3>
 </a>
 
@@ -162,7 +164,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Pegamentos Klaukol
+    Llanas
   </h3>
 </a>
 
@@ -175,7 +177,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Hidrófugos
+    Martillos y Hachas
   </h3>
 </a>
     
@@ -193,7 +195,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Caños de Hormigón
+    Niveles
   </h3>
 </a>
 
@@ -206,7 +208,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Telgopor y Derivados
+    Palas
   </h3>
 </a>
 
@@ -219,7 +221,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Bolque de Hormigón
+    Mangueras
   </h3>
 </a>
     
@@ -238,7 +240,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Refractarios
+    Baldes
   </h3>
 </a>
 
@@ -251,7 +253,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Viguetas
+    Silicona
   </h3>
 </a>
 
@@ -264,7 +266,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Chapas
+    Cemento Gris
   </h3>
 </a>
     
@@ -285,7 +287,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Pegamentos Mapei
+    Cemento Blanco
   </h3>
 </a>
 
@@ -298,7 +300,7 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Áridos
+    Yeso Paris 
   </h3>
 </a>
 
@@ -311,7 +313,124 @@ export default function ObraGruesa() {
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Áridos en Bolsa
+    Carretillas
+  </h3>
+</a>
+    
+  </div>
+
+  <div className="flex justify-center gap-20 mb-20 drop-shadow-[0_10px_25px_#05aced]">
+    
+    {/* Tarjeta 22 */}
+    <a
+  href="/productos/obragruesa/Pegamentosmapei"
+  className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
+  style={{
+    backgroundImage: "url('https://i.postimg.cc/qMBXPpq5/Screenshot-2025-04-24-at-10-06-02-PM.png')",
+  }}
+>
+  <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
+    Rafia
+  </h3>
+</a>
+
+    {/* Tarjeta 23 */}
+    <a
+  href="/productos/obragruesa/Aridos"
+  className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
+  style={{
+    backgroundImage: "url('https://i.postimg.cc/vBjGLY4S/Screenshot-2025-04-24-at-10-16-19-PM.png')",
+  }}
+>
+  <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
+    Nylon Negro
+  </h3>
+</a>
+
+    {/* Tarjeta 24 */}
+    <a
+  href="/productos/obragruesa/Aridosenbolsa"
+  className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
+  style={{
+    backgroundImage: "url('https://i.postimg.cc/c4RwTmYZ/Screenshot-2025-04-24-at-10-30-23-PM.png')",
+  }}
+>
+  <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
+    Pinceles y Rodillos
+  </h3>
+</a>
+    
+  </div>
+
+  <div className="flex justify-center gap-20 mb-20 drop-shadow-[0_10px_25px_#05aced]">
+    
+    {/* Tarjeta 25 */}
+    <a
+  href="/productos/obragruesa/Pegamentosmapei"
+  className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
+  style={{
+    backgroundImage: "url('https://i.postimg.cc/qMBXPpq5/Screenshot-2025-04-24-at-10-06-02-PM.png')",
+  }}
+>
+  <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
+    Plomadas
+  </h3>
+</a>
+
+    {/* Tarjeta 26 */}
+    <a
+  href="/productos/obragruesa/Aridos"
+  className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
+  style={{
+    backgroundImage: "url('https://i.postimg.cc/vBjGLY4S/Screenshot-2025-04-24-at-10-16-19-PM.png')",
+  }}
+>
+  <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
+    Caño Corrugado
+  </h3>
+</a>
+
+    {/* Tarjeta 27 */}
+    <a
+  href="/productos/obragruesa/Aridosenbolsa"
+  className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
+  style={{
+    backgroundImage: "url('https://i.postimg.cc/c4RwTmYZ/Screenshot-2025-04-24-at-10-30-23-PM.png')",
+  }}
+>
+  <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
+    Abrazaderas
+  </h3>
+</a>
+    
+  </div>
+
+
+  <div className="flex justify-center gap-20 mb-20 drop-shadow-[0_10px_25px_#05aced]">
+    
+    {/* Tarjeta 28 */}
+    <a
+  href="/productos/obragruesa/Pegamentosmapei"
+  className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
+  style={{
+    backgroundImage: "url('https://i.postimg.cc/qMBXPpq5/Screenshot-2025-04-24-at-10-06-02-PM.png')",
+  }}
+>
+  <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
+    Artículos y varios
+  </h3>
+</a>
+
+    {/* Tarjeta 29 */}
+    <a
+  href="/productos/obragruesa/Aridos"
+  className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
+  style={{
+    backgroundImage: "url('https://i.postimg.cc/vBjGLY4S/Screenshot-2025-04-24-at-10-16-19-PM.png')",
+  }}
+>
+  <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
+    Cucharas Albañil
   </h3>
 </a>
     

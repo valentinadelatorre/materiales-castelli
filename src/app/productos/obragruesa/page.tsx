@@ -231,10 +231,10 @@ export default function ObraGruesa() {
     
     {/* Tarjeta 16 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Refractarios"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/nLmLRQJf/Screenshot-2025-04-24-at-9-30-06-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -244,10 +244,10 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 17 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Viguetas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/DyqkMdWg/Screenshot-2025-04-24-at-9-47-46-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -257,10 +257,10 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 18 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Chapas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/VN2Kwppb/Screenshot-2025-04-24-at-9-57-02-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -278,10 +278,10 @@ export default function ObraGruesa() {
     
     {/* Tarjeta 19 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Pegamentosmapei"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/qMBXPpq5/Screenshot-2025-04-24-at-10-06-02-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -291,10 +291,10 @@ export default function ObraGruesa() {
 
     {/* Tarjeta 20 */}
     <a
-  href="#"
+  href="/productos/obragruesa/Aridos"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/J41s4Bzq/Screenshot-2025-04-22-at-1-27-25-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/vBjGLY4S/Screenshot-2025-04-24-at-10-16-19-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">

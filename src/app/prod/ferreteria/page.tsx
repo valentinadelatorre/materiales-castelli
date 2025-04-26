@@ -157,10 +157,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 11 */}
     <a
-  href="/productos/obragruesa/PegamentoKlaukol"
+  href="/prod/ferreteria/llanas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/wvKKPyZn/Screenshot-2025-04-24-at-12-47-19-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/cJghWF12/Screenshot-2025-04-26-at-1-32-58-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -170,10 +170,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 12 */}
     <a
-  href="/productos/obragruesa/Hidrofugos"
+  href="/prod/ferreteria/martillosyhachas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/ZRMLj2Rc/Screenshot-2025-04-24-at-1-07-46-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/pLy49YXY/Screenshot-2025-04-26-at-2-00-20-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -188,10 +188,10 @@ export default function Ferreteria() {
     
     {/* Tarjeta 13 */}
     <a
-  href="/productos/obragruesa/Canosdehormigon"
+  href="/prod/ferreteria/niveles"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/1z3zYMpN/Screenshot-2025-04-24-at-1-49-56-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/jdRDPc9f/Screenshot-2025-04-26-at-2-10-17-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -201,10 +201,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 14 */}
     <a
-  href="/productos/obragruesa/Telgoporyderivados"
+  href="/prod/ferreteria/palas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/3x7CSynD/Screenshot-2025-04-24-at-2-00-15-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/8PLqQBPZ/Screenshot-2025-04-26-at-2-21-06-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -214,10 +214,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 15 */}
     <a
-  href="/productos/obragruesa/Bloquedehormigon"
+  href="/prod/ferreteria/mangueras"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/FFwV5Csc/Screenshot-2025-04-24-at-2-18-54-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/KY3PwQmz/Screenshot-2025-04-26-at-2-28-02-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -233,23 +233,23 @@ export default function Ferreteria() {
     
     {/* Tarjeta 16 */}
     <a
-  href="/productos/obragruesa/Refractarios"
+  href="/prod/ferreteria/baldes"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/nLmLRQJf/Screenshot-2025-04-24-at-9-30-06-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/rFbz3Ts1/Screenshot-2025-04-26-at-2-36-42-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Baldes
+    Baldes y Bandejas
   </h3>
 </a>
 
     {/* Tarjeta 17 */}
     <a
-  href="/productos/obragruesa/Viguetas"
+  href="/prod/ferreteria/silicona"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/DyqkMdWg/Screenshot-2025-04-24-at-9-47-46-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/cLRgnj1f/Screenshot-2025-04-26-at-2-45-43-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">

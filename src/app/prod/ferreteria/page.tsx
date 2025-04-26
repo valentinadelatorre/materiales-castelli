@@ -82,10 +82,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 6 */}
     <a
-  href="/productos/obragruesa/Varillasdehierro"
+  href="/prod/ferreteria/discosdecorte"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/9QqvktsQ/Screenshot-2025-04-24-at-10-49-32-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/v8zszKzG/Screenshot-2025-04-25-at-8-48-01-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -101,10 +101,10 @@ export default function Ferreteria() {
     
     {/* Tarjeta 7 */}
     <a
-  href="/productos/obragruesa/Derivadosdehierro"
+  href="/prod/ferreteria/escuadras"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/ydnmY04q/Screenshot-2025-04-24-at-10-47-24-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/bNZdv1P1/Screenshot-2025-04-26-at-12-10-11-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -113,10 +113,10 @@ export default function Ferreteria() {
 </a>
 
     {/* Tarjeta 8 */}
-    <a href="/productos/obragruesa/Aditivosvinilicos"
+    <a href="/prod/ferreteria/espatulas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/VLyNP5Q9/Screenshot-2025-04-24-at-12-01-57-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/cLbHYm7s/Screenshot-2025-04-26-at-12-18-30-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -126,14 +126,14 @@ export default function Ferreteria() {
 
     {/* Tarjeta 9 */}
     <a
-  href="/productos/obragruesa/Yesos"
+  href="/prod/ferreteria/fratachosalgarrobo"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/QN6csQxL/Screenshot-2025-04-24-at-12-19-39-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/522c1WC0/Screenshot-2025-04-26-at-12-34-25-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
-    Fratacho Algarrobo
+    Fratachos
   </h3>
 </a>
     
@@ -144,10 +144,10 @@ export default function Ferreteria() {
     
     {/* Tarjeta 10 */}
     <a
-  href="/productos/obragruesa/Pegamentoweber"
+  href="/prod/ferreteria/grinfas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/fWxqzgS3/Screenshot-2025-04-24-at-12-30-42-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/MGtvHSsF/Screenshot-2025-04-26-at-12-42-11-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">

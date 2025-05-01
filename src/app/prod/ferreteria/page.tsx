@@ -1,11 +1,18 @@
 import Link from 'next/link';
+import { Poppins } from 'next/font/google';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+});
 
 export default function Ferreteria() {
     return (
       <div className="bg-black min-h-screen p-10">
-        <h2 className="text-5xl font-extrabold text-white mb-16 text-center">
-          Productos de Ferretería
-        </h2>
+        <h2 className={`${poppins.className} text-5xl font-extrabold text-white mb-16 text-center`}>
+  Productos de Ferretería
+</h2>
+
 
   <div className="flex justify-center gap-20 mb-20 drop-shadow-[0_10px_25px_#05aced]">
     

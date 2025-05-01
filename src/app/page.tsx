@@ -1,5 +1,12 @@
 'use client'
 import Link from "next/link";
+import { Poppins } from 'next/font/google';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+});
+
 
 export default function Home() {
   return (
@@ -16,11 +23,12 @@ export default function Home() {
 
     {/* Menú a la derecha */}
     <nav className="hidden md:flex space-x-6">
-      <a href="#servicios" className="text-black font-extrabold">Servicios</a>
-      <a href="#productos" className="text-black font-extrabold">Productos</a>
-      <a href="#nosotros" className="text-black font-extrabold">Nosotros</a>
-      <a href="#contacto" className="text-black font-extrabold">Contacto</a>
-    </nav>
+  <a href="#servicios" className={`${poppins.className} text-black font-extrabold`}>Servicios</a>
+  <a href="#productos" className={`${poppins.className} text-black font-extrabold`}>Productos</a>
+  <a href="#nosotros" className={`${poppins.className} text-black font-extrabold`}>Nosotros</a>
+  <a href="#contacto" className={`${poppins.className} text-black font-extrabold`}>Contacto</a>
+</nav>
+
 
   </div>
 </header>
@@ -80,13 +88,13 @@ export default function Home() {
       {/* PRODUCTOS */}
       
   <section id="productos" className="relative z-20 -mt-10 px-4 py-16 bg-[#e0f2fe] rounded-t-3xl shadow-xl max-w-7xl mx-auto">
-  <h1 className="text-5xl font-bold text-center mb-10 ">Productos</h1>
+  <h1 className={`${poppins.className} text-5xl font-bold text-center mb-10`}>Productos</h1>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
     {[
       { nombre: "Obra Gruesa", imagen: "/obragruesa.jpg", ruta: "/productos/obragruesa" },
       { nombre: "Ferreteria", imagen: "/ferreteria.jpg", ruta: "/prod/ferreteria" },
-      { nombre: "Sanitarios", imagen: "/sanitarios.jpg", ruta: "#" },
+      { nombre: "Sanitarios", imagen: "/sanitarios.jpg", ruta: "/produ/sanitarios" },
       { nombre: "Revestimientos", imagen: "/revestimientos.jpg", ruta: "#" },
       { nombre: "PVC", imagen: "/pvc.jpg", ruta: "#" },
       { nombre: "Awaduct", imagen: "/awaduct.jpg", ruta: "#" }
@@ -129,7 +137,7 @@ export default function Home() {
 
       {/* PRODUCTOS DESTACADOS */}
 <section className="py-20 px-4 bg-black text-center">
-  <h2 className="text-5xl text-white font-extrabold mb-10">Productos destacados</h2>
+  <h2 className={`${poppins.className} text-5xl text-white font-extrabold mb-10`}>Productos destacados</h2>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto drop-shadow-[0_10px_25px_#05aced]">
     
@@ -164,7 +172,10 @@ export default function Home() {
       {/* CONTACTO */}
       <section className="py-20 px-4 bg-black text-white text-center">
         
-        <h2 className="text-5xl font-bold mb-6">Pedí tu presupuesto</h2>
+      <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
+  Pedí tu presupuesto
+</h2>
+
         <form className="max-w-2xl mx-auto space-y-4">
           <input type="text" placeholder="Nombre" className="w-full p-3 rounded border text-white" />
           <input type="email" placeholder="Email" className="w-full p-3 rounded border" />
@@ -180,7 +191,10 @@ export default function Home() {
       
       {/* UBICACIONES */}
 <section className="py-20 px-4 bg-black text-white text-center">
-  <h2 className="text-5xl font-bold mb-10">Nuestras Ubicaciones</h2>
+<h2 className={`${poppins.className} text-5xl font-bold mb-10`}>
+  Nuestras Ubicaciones
+</h2>
+
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
     
     {/* Tarjeta 1 */}
@@ -215,7 +229,10 @@ export default function Home() {
        <section className="py-20 px-4 bg-black text-white text-center">
     
 
-    <h2 className="text-5xl font-bold mb-6">Sobre Nosotros</h2>
+       <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
+  Sobre Nosotros
+</h2>
+
     <p className="max-w-3xl mx-auto text-lg">
       En Materiales Castelli trabajamos hace años para ofrecer a nuestros clientes los mejores materiales
       de construcción del mercado. Nos destacamos por nuestro compromiso, atención personalizada y una amplia

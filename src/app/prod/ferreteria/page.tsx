@@ -259,10 +259,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 18 */}
     <a
-  href="/productos/obragruesa/Chapas"
+  href="/prod/ferreteria/cementogris"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/VN2Kwppb/Screenshot-2025-04-24-at-9-57-02-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/tgbgf05X/Screenshot-2025-05-01-at-11-45-17-AM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -280,10 +280,10 @@ export default function Ferreteria() {
     
     {/* Tarjeta 19 */}
     <a
-  href="/productos/obragruesa/Pegamentosmapei"
+  href="/prod/ferreteria/cementoblanco"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/qMBXPpq5/Screenshot-2025-04-24-at-10-06-02-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/htsGHy3T/Screenshot-2025-05-01-at-11-51-41-AM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -293,10 +293,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 20 */}
     <a
-  href="/productos/obragruesa/Aridos"
+  href="/prod/ferreteria/yesoparis"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/vBjGLY4S/Screenshot-2025-04-24-at-10-16-19-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/XJVknzVW/Screenshot-2025-05-01-at-12-03-19-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -306,10 +306,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 21 */}
     <a
-  href="/productos/obragruesa/Aridosenbolsa"
+  href="/prod/ferreteria/carretillas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/c4RwTmYZ/Screenshot-2025-04-24-at-10-30-23-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/4xfc7hDv/Screenshot-2025-05-01-at-12-10-00-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -323,10 +323,10 @@ export default function Ferreteria() {
     
     {/* Tarjeta 22 */}
     <a
-  href="/productos/obragruesa/Pegamentosmapei"
+  href="/prod/ferreteria/rafia"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/qMBXPpq5/Screenshot-2025-04-24-at-10-06-02-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/Y9HM0QVM/Screenshot-2025-05-01-at-12-15-27-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -336,10 +336,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 23 */}
     <a
-  href="/productos/obragruesa/Aridos"
+  href="/prod/ferreteria/nylonnegro"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/vBjGLY4S/Screenshot-2025-04-24-at-10-16-19-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/PJ77pjxY/Screenshot-2025-05-01-at-12-20-59-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -349,10 +349,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 24 */}
     <a
-  href="/productos/obragruesa/Aridosenbolsa"
+  href="/prod/ferreteria/pincelesyrodillos"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/c4RwTmYZ/Screenshot-2025-04-24-at-10-30-23-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/3R1XbFQw/Screenshot-2025-05-01-at-12-30-30-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -366,10 +366,10 @@ export default function Ferreteria() {
     
     {/* Tarjeta 25 */}
     <a
-  href="/productos/obragruesa/Pegamentosmapei"
+  href="/prod/ferreteria/plomadas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/qMBXPpq5/Screenshot-2025-04-24-at-10-06-02-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/X7krKY3V/Screenshot-2025-05-01-at-12-39-28-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -379,10 +379,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 26 */}
     <a
-  href="/productos/obragruesa/Aridos"
+  href="/prod/ferreteria/canocorrugado"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/vBjGLY4S/Screenshot-2025-04-24-at-10-16-19-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/sDNtNp3K/Screenshot-2025-05-01-at-12-46-38-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -392,10 +392,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 27 */}
     <a
-  href="/productos/obragruesa/Aridosenbolsa"
+  href="/prod/ferreteria/abrazaderas"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/c4RwTmYZ/Screenshot-2025-04-24-at-10-30-23-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/ydpP8yQb/Screenshot-2025-05-01-at-12-51-36-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -410,10 +410,10 @@ export default function Ferreteria() {
     
     {/* Tarjeta 28 */}
     <a
-  href="/productos/obragruesa/Pegamentosmapei"
+  href="/prod/ferreteria/articulosyvarios"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/qMBXPpq5/Screenshot-2025-04-24-at-10-06-02-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/hGZX6y3h/Screenshot-2025-05-01-at-1-13-25-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">
@@ -423,10 +423,10 @@ export default function Ferreteria() {
 
     {/* Tarjeta 29 */}
     <a
-  href="/productos/obragruesa/Aridos"
+  href="/prod/ferreteria/cucharasalbanil"
   className="w-72 h-72 rounded-2xl shadow-lg p-6 hover:shadow-xl transition duration-300 bg-cover bg-center flex items-end"
   style={{
-    backgroundImage: "url('https://i.postimg.cc/vBjGLY4S/Screenshot-2025-04-24-at-10-16-19-PM.png')",
+    backgroundImage: "url('https://i.postimg.cc/vZ62ck5w/Screenshot-2025-05-01-at-1-18-23-PM.png')",
   }}
 >
   <h3 className="text-xl font-semibold text-black bg-[#05aced]/80 p-2 rounded-md text-center w-full">

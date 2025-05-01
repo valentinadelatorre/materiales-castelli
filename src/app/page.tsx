@@ -5,48 +5,69 @@ export default function Home() {
   return (
 
 
-    <main className="bg-white text-black">
-       <header className="fixed top-0 left-0 w-full bg-[#e0f2fe] z-50  drop-shadow-[0_10px_25px_#05aced]">
+    <main className="bg-black text-black">
+       <header className="fixed top-0 left-0 w-full bg-[#e0f2fe] z-50 drop-shadow-[0_10px_25px_#05aced]">
+  <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between overflow-visible">
 
+    {/* Logo escalado sin agrandar el header */}
+    <div className="transform scale-230 origin-left -ml-2">
+      <img src="/logomateriales.png" alt="Materiales Castelli" className="h-10 object-contain" />
+    </div>
 
-  <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-
-    <nav className="space-x-6 hidden md:block">
+    {/* Menú a la derecha */}
+    <nav className="hidden md:flex space-x-6">
       <a href="#servicios" className="text-black font-extrabold">Servicios</a>
       <a href="#productos" className="text-black font-extrabold">Productos</a>
       <a href="#nosotros" className="text-black font-extrabold">Nosotros</a>
       <a href="#contacto" className="text-black font-extrabold">Contacto</a>
     </nav>
+
   </div>
 </header>
+
+
       {/* HERO */}
-      <section className="flex min-h-[80vh] mt-20 flex-col items-center justify-center bg-black px-2 py-6">
-     
+    <section>
+      <div className="relative min-h-screen flex items-center justify-center bg-black p-8">
 
-  <div className="group [perspective:1000px]">
-    <div className="relative h-[400px] w-[650px] transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-      
-      {/* Frente */}
-      <div
-  className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white p-9 [backface-visibility:hidden]"
-  style={{ boxShadow: '0 20px 50px rgba(9, 173, 236, 0.5)' }}
->
+  {/* Imagen principal */}
+  <div className="relative w-full max-w-5xl rounded-2xl overflow-hidden shadow-2xl shadow-cyan-400/70">
+    <img
+      src="https://i.postimg.cc/ZnHCmJTP/Screenshot-2025-05-01-at-1-33-33-PM.png"
+      alt="Materiales Castelli"
+      className="w-full h-[480px] object-cover rounded-2xl"
+    />
 
-        <h1 className="text-center text-2xl font-extrabold text-black md:text-5xl">
-          Líderes en abastecimiento de materiales para la construcción
-        </h1>
-      </div>
-
-      {/* Reverso */}
-      <div className="absolute inset-0 flex [transform:rotateY(180deg)] items-center justify-center rounded-2xl bg-white p-0 shadow-md [backface-visibility:hidden]">
-        <img
-          src="https://i.postimg.cc/2jqY5CZt/Screenshot-2025-04-21-at-6-40-05-PM.png"
-          alt="Material"
-          className="w-full h-full object-cover rounded-2xl"
-        />
-      </div>
+    {/* Texto sobre la imagen */}
+    <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-white/80 px-6 py-3 rounded-full shadow-md z-30">
+      <p className="text-black font-semibold">Soluciones Completas para Construcción...</p>
     </div>
   </div>
+
+  {/* BOTÓN IZQUIERDO flotante y saliéndose */}
+  <div className="absolute left-6 bottom-[80px] z-50 bg-black text-white rounded-xl px-4 py-3 shadow-lg shadow-cyan-400/70 flex items-center space-x-2">
+    <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1116.65 2a7.5 7.5 0 010 15z" />
+    </svg>
+    <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h8m-8 6h16" />
+    </svg>
+  </div>
+
+  {/* BOTÓN DERECHO flotante y saliéndose */}
+  <div className="absolute right-6 bottom-[80px] z-50 bg-black text-white rounded-xl px-5 py-3 shadow-lg shadow-cyan-400/70 flex items-center space-x-3">
+    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M2 4h20v16H2z" fill="none"/>
+      <path d="M22 4v16H2V4h20zm-2 2H4v2l8 5 8-5V6zm0 12V9.4l-8 5-8-5V18h16z"/>
+    </svg>
+    <div className="text-left">
+      <p className="font-semibold leading-4">Contactanos</p>
+      <p className="text-sm">¡ahora!</p>
+    </div>
+  </div>
+</div>
+
+
 </section>
 
 
@@ -59,9 +80,9 @@ export default function Home() {
       {/* PRODUCTOS */}
       
   <section id="productos" className="relative z-20 -mt-10 px-4 py-16 bg-[#e0f2fe] rounded-t-3xl shadow-xl max-w-7xl mx-auto">
-  <h1 className="text-5xl font-bold text-center mb-10">Productos</h1>
+  <h1 className="text-5xl font-bold text-center mb-10 ">Productos</h1>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
     {[
       { nombre: "Obra Gruesa", imagen: "/obragruesa.jpg", ruta: "/productos/obragruesa" },
       { nombre: "Ferreteria", imagen: "/ferreteria.jpg", ruta: "/prod/ferreteria" },
@@ -114,21 +135,21 @@ export default function Home() {
     
   <div
   className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
-  style={{ backgroundImage: "url('https://i.postimg.cc/XXM56kz3/Screenshot-2025-04-21-at-9-41-14-PM.png')" }} // poné tu ruta o URL aquí
+  style={{ backgroundImage: "url('https://i.postimg.cc/52KzQfjG/Screenshot-2025-04-24-at-10-42-27-PM.png')" }} // poné tu ruta o URL aquí
 >
       <button className="mt-4 w-full bg-[#05aced] text-white py-2 rounded-md hover:bg-blue-600 font-extrabold transition">Bolsa de Cemento</button>
     </div>
 
     <div
   className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
-  style={{ backgroundImage: "url('https://i.postimg.cc/W3C8trHY/Screenshot-2025-04-21-at-9-42-29-PM.png')" }} // poné tu ruta o URL aquí
+  style={{ backgroundImage: "url('https://i.postimg.cc/3xsjNKkB/Screenshot-2025-04-24-at-10-40-54-PM.png')" }} // poné tu ruta o URL aquí
 >
       <button className="mt-4 w-full bg-[#05aced] text-white py-2 rounded-md hover:bg-blue-600 font-extrabold transition">Áridos en Bolsón</button>
     </div>
 
     <div
   className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
-  style={{ backgroundImage: "url('https://i.postimg.cc/qMfQTsnz/Screenshot-2025-04-21-at-9-43-41-PM.png')" }} // poné tu ruta o URL aquí
+  style={{ backgroundImage: "url('https://i.postimg.cc/90wNRcdY/Screenshot-2025-04-24-at-10-50-55-PM.png')" }} // poné tu ruta o URL aquí
 >
 
       <button className="mt-4 w-full bg-[#05aced] text-white py-2 rounded-md hover:bg-blue-600 font-extrabold transition">Ladrillos Huecos</button>

@@ -25,7 +25,7 @@ export default function SanitariosPage() {
               <h3 className="text-white text-2xl font-bold mb-4">Capea Italiana</h3>
               <a
                 href="/produ/sanitarios/capeaitaliana"
-                className="bg-cyan-600 text-white px-5 py-2 rounded-md font-semibold hover:bg-blue-600 w-max"
+                className="bg-cyan-600 text-white px-5 py-2 rounded-md font-semibold hover:bg-[#05aced] w-max"
               >
                 Ver opciones
               </a>
@@ -45,7 +45,7 @@ export default function SanitariosPage() {
               <h3 className="text-white text-2xl font-bold mb-4">Mónaco</h3>
               <a
                 href="/produ/sanitarios/monaco"
-                className="bg-cyan-600 text-white px-5 py-2 rounded-md font-semibold hover:bg-blue-600 w-max"
+                className="bg-cyan-600 text-white px-5 py-2 rounded-md font-semibold hover:bg-[#05aced] w-max"
               >
                 Ver opciones
               </a>

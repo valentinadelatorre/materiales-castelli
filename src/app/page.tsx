@@ -39,7 +39,7 @@ export default function Home() {
       <div className="relative min-h-screen flex items-center justify-center bg-black p-8">
 
   {/* Imagen principal */}
-  <div className="relative w-full max-w-5xl rounded-2xl overflow-hidden shadow-2xl shadow-cyan-400/70">
+  <div className="relative w-full max-w-5xl rounded-2xl overflow-hidden shadow-2xl drop-shadow-[0_10px_25px_#05aced]">
     <img
       src="https://i.postimg.cc/ZnHCmJTP/Screenshot-2025-05-01-at-1-33-33-PM.png"
       alt="Materiales Castelli"
@@ -53,7 +53,7 @@ export default function Home() {
   </div>
 
   {/* BOTÓN IZQUIERDO flotante y saliéndose */}
-  <div className="absolute left-6 bottom-[80px] z-50 bg-black text-white rounded-xl px-4 py-3 shadow-lg shadow-cyan-400/70 flex items-center space-x-2">
+  <div className="absolute left-6 bottom-[80px] z-50 bg-black text-white rounded-xl px-4 py-3 shadow-lg drop-shadow-[0_10px_25px_#05aced] flex items-center space-x-2">
     <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1116.65 2a7.5 7.5 0 010 15z" />
     </svg>
@@ -63,7 +63,7 @@ export default function Home() {
   </div>
 
   {/* BOTÓN DERECHO flotante y saliéndose */}
-  <div className="absolute right-6 bottom-[80px] z-50 bg-black text-white rounded-xl px-5 py-3 shadow-lg shadow-cyan-400/70 flex items-center space-x-3">
+  <div className="absolute right-6 bottom-[80px] z-50 bg-black text-white rounded-xl px-5 py-3 shadow-lg drop-shadow-[0_10px_25px_#05aced] flex items-center space-x-3">
     <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
       <path d="M2 4h20v16H2z" fill="none"/>
       <path d="M22 4v16H2V4h20zm-2 2H4v2l8 5 8-5V6zm0 12V9.4l-8 5-8-5V18h16z"/>
@@ -95,7 +95,7 @@ export default function Home() {
       { nombre: "Obra Gruesa", imagen: "/obragruesa.jpg", ruta: "/productos/obragruesa" },
       { nombre: "Ferreteria", imagen: "/ferreteria.jpg", ruta: "/prod/ferreteria" },
       { nombre: "Sanitarios", imagen: "/sanitarios.jpg", ruta: "/produ/sanitarios" },
-      { nombre: "Revestimientos", imagen: "/revestimientos.jpg", ruta: "#" },
+      { nombre: "Revestimientos", imagen: "/revestimientos.jpg", ruta: "/produc/revestimientos" },
       { nombre: "PVC", imagen: "/pvc.jpg", ruta: "#" },
       { nombre: "Awaduct", imagen: "/awaduct.jpg", ruta: "#" }
     ].map((producto) => (

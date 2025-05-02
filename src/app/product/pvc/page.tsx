@@ -13,9 +13,12 @@ export default function PVCPage() {
       >
         PVC
       </h2>
-
+      
+      <section>
       {/* Primera fila */}
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-center gap-25 md:flex-row">
+
+      
         {/* Círculo 1 */}
         <a href="/product/pvc/canos" className="relative flex items-center justify-center cursor-pointer">
           <div
@@ -89,6 +92,32 @@ export default function PVCPage() {
           </div>
         </a>
       </div>
+
+      </section>
+
+      {/* CONTACTO */}
+      <section className="py-20 px-4 bg-black mt-20 text-white text-center">
+        
+        <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
+    Pedí tu presupuesto
+  </h2>
+  
+          <form className="max-w-2xl mx-auto space-y-4">
+            <input type="text" placeholder="Nombre" className="w-full p-3 rounded border text-white" />
+            <input type="email" placeholder="Email" className="w-full p-3 rounded border" />
+            <textarea placeholder="Mensaje" className="w-full p-3 rounded border h-32" />
+            <input type="file" className="w-full" />
+            <button type="submit" className="w-full bg-[#05aced] text-white py-3 rounded">
+              Enviar mensaje
+            </button>
+          </form>
+          <p className="mt-6">📞 1127712390 | 📞 1160288911</p>
+          <p>📧 materialescastelli@gmail.com</p>
+        </section>
     </div>
+
+    
+
+
   );
 }

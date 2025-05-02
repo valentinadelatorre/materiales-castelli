@@ -7,11 +7,11 @@ const poppins = Poppins({
 
 
 
-export default function CodoPage() {
+export default function AwaductPage() {
     return (
       <div id="codo" className="bg-black py-20 px-6">
         <h3 className={`${poppins.className} text-7xl font-bold text-white text-center mb-20`}>
-  Modelos de Curvas
+  Awaduct
 </h3>
 
   <section>
@@ -20,12 +20,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/9fy9NHXh/Screenshot-2025-05-02-at-2-08-30-PM.png"
+                src="https://i.postimg.cc/bvBHfxmN/Screenshot-2025-05-02-at-8-03-28-PM.png"
                 alt="Codo 90°"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 100° A 45°</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">CAÑOS</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -35,12 +35,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/xTqzVzjg/Screenshot-2025-05-02-at-2-10-26-PM.png"
+                src="https://i.postimg.cc/sXGPjMLP/Screenshot-2025-05-02-at-8-04-39-PM.png"
                 alt="Codo 45°"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 100 A 45° LINEA 110</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">CODOS Y CURVAS</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -50,12 +50,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/SKb2916t/Screenshot-2025-05-02-at-2-12-20-PM.png"
+                src="https://i.postimg.cc/VvyqdYyx/Screenshot-2025-05-02-at-8-05-29-PM.png"
                 alt="Codo Flexible"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 110 A 45° LINEA 110</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">RAMALES</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -69,12 +69,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/JzSX74YJ/Screenshot-2025-05-02-at-2-18-04-PM.png"
+                src="https://i.postimg.cc/rFkGTFNW/Screenshot-2025-05-02-at-8-06-23-PM.png"
                 alt="Codo 90°"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 110 A 90° LINEA 110</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">REJILLAS</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -84,12 +84,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/KYLM1SCW/Screenshot-2025-05-02-at-2-21-33-PM.png"
+                src="https://i.postimg.cc/wjWDD58c/Screenshot-2025-05-02-at-8-07-13-PM.png"
                 alt="Codo 45°"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 160 A 45° LINEA 110</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">RECEPTACULOS</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -99,12 +99,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/DZn8mWrW/Screenshot-2025-05-02-at-2-22-51-PM.png"
+                src="https://i.postimg.cc/bNpnMVq9/Screenshot-2025-05-02-at-8-08-00-PM.png"
                 alt="Codo Flexible"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 160 A 90° LINEA 110</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">TAPAS</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -119,12 +119,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/Bvxjq5K9/Screenshot-2025-05-02-at-2-24-18-PM.png"
+                src="https://i.postimg.cc/NjPrKgmd/Screenshot-2025-05-02-at-8-08-50-PM.png"
                 alt="Codo 90°"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 40 A 45°</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">CUPLAS</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -134,12 +134,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/hv3jCpHx/Screenshot-2025-05-02-at-2-25-51-PM.png"
+                src="https://i.postimg.cc/gJ3wt857/Screenshot-2025-05-02-at-8-09-37-PM.png"
                 alt="Codo 45°"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 60 A 90°</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">BOCA ACCESO</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -149,12 +149,12 @@ export default function CodoPage() {
           <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
             <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
               <img
-                src="https://i.postimg.cc/rFKzd2r9/Screenshot-2025-05-02-at-2-27-27-PM.png"
+                src="https://i.postimg.cc/hvrXcgKb/Screenshot-2025-05-02-at-8-10-24-PM.png"
                 alt="Codo Flexible"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">CURVA PVC 63 A 45° LINEA 110</h4>
+            <h4 className="text-white text-2xl font-semibold mb-4">MANGUITO REPARACION</h4>
             <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
               Más Información
             </button>
@@ -164,27 +164,7 @@ export default function CodoPage() {
 
 
 
-        <section>
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-20 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
-          {/* Tarjeta 10 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-xl shadow-cyan-400/20 p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
-            <div className="w-60 h-60 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
-              <img
-                src="https://i.postimg.cc/hP6vTZ8R/Screenshot-2025-05-02-at-2-28-37-PM.png"
-                alt="Codo 90°"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <h4 className="text-white text-2xl font-semibold mb-4">Codo PVC 90°</h4>
-            <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
-              Más Información
-            </button>
-          </div>
-        </div>
-        </section>
-
-
-        {/* CONTACTO */}
+         {/* CONTACTO */}
       <section className="py-20 px-4 bg-black mt-20 text-white text-center">
         
         <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>

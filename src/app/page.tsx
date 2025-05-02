@@ -97,7 +97,7 @@ export default function Home() {
       { nombre: "Sanitarios", imagen: "/sanitarios.jpg", ruta: "/produ/sanitarios" },
       { nombre: "Revestimientos", imagen: "/revestimientos.jpg", ruta: "/produc/revestimientos" },
       { nombre: "PVC", imagen: "/pvc.jpg", ruta: "/product/pvc" },
-      { nombre: "Awaduct", imagen: "/awaduct.jpg", ruta: "#" }
+      { nombre: "Awaduct", imagen: "/awaduct.jpg", ruta: "/producto/awaduct" }
     ].map((producto) => (
       <Link href={producto.ruta} key={producto.nombre}>
         <div

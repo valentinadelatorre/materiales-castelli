@@ -14,7 +14,7 @@ export default function SanitariosPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
 
         {/* Producto 1: capea italiana */}
-        <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-cyan-400/60 group">
+        <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-[#05aced] group">
           <img
             src="https://i.postimg.cc/qRQmCCw9/Screenshot-2025-05-01-at-3-29-19-PM.png"
             alt="Inodoros"
@@ -25,7 +25,7 @@ export default function SanitariosPage() {
               <h3 className="text-white text-2xl font-bold mb-4">Capea Italiana</h3>
               <a
                 href="/produ/sanitarios/capeaitaliana"
-                className="bg-cyan-600 text-white px-5 py-2 rounded-md font-semibold hover:bg-[#05aced] w-max"
+                className="bg-[#05aced] text-white px-5 py-2 rounded-md font-semibold hover:bg-[#05aced] w-max"
               >
                 Ver opciones
               </a>
@@ -34,7 +34,7 @@ export default function SanitariosPage() {
         </div>
 
         {/* Producto 2: monaco */}
-        <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-cyan-400/60 group">
+        <div className="relative rounded-2xl overflow-hidden shadow-xl shadow-[#05aced] group">
           <img
             src="https://i.postimg.cc/RV0Fk3Yq/Screenshot-2025-05-01-at-3-30-48-PM.png"
             alt="Grifería"
@@ -45,7 +45,7 @@ export default function SanitariosPage() {
               <h3 className="text-white text-2xl font-bold mb-4">Mónaco</h3>
               <a
                 href="/produ/sanitarios/monaco"
-                className="bg-cyan-600 text-white px-5 py-2 rounded-md font-semibold hover:bg-[#05aced] w-max"
+                className="bg-[#05aced] text-white px-5 py-2 rounded-md font-semibold hover:bg-[#05aced] w-max"
               >
                 Ver opciones
               </a>

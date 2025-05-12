@@ -17,7 +17,7 @@ export default function SopapaPage() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-15 max-w-6xl mx-auto">
           {/* Tarjeta 1 */}
           <div className="bg-neutral-900 rounded-2xl w-[30rem] h-[30rem] shadow-xl drop-shadow-[0_10px_25px_#05aced] p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
-            <div className="w-64 h-64 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
+            <div className="w-64 h-64 rounded-full overflow-hidden mb-6 border-4 border-[#05aced]">
               <img
                 src="https://i.postimg.cc/N0mS0FDr/Screenshot-2025-05-02-at-3-07-42-PM.png"
                 alt="Cañito"
@@ -25,14 +25,18 @@ export default function SopapaPage() {
               />
             </div>
             <h4 className="text-white text-2xl font-semibold mb-4">SOPAPA CODO PVC 40</h4>
-            <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
-              Más Información
-            </button>
+            <a
+  href="#presupues"
+  className="px-6 py-2 bg-[#05aced] text-black rounded-full font-semibold hover:bg-cyan-400 transition"
+>
+  Más Información
+</a>
+
           </div>
   
           {/* Tarjeta 2 */}
           <div className="bg-neutral-900 rounded-2xl w-[30rem] h-[30rem] shadow-xl drop-shadow-[0_10px_25px_#05aced] p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300">
-            <div className="w-64 h-64 rounded-full overflow-hidden mb-6 border-4 border-cyan-500/30">
+            <div className="w-64 h-64 rounded-full overflow-hidden mb-6 border-4 border-[#05aced]">
               <img
                 src="https://i.postimg.cc/Gth5zQCk/Screenshot-2025-05-02-at-3-08-38-PM.png"
                 alt="Cañón XL"
@@ -40,14 +44,18 @@ export default function SopapaPage() {
               />
             </div>
             <h4 className="text-white text-2xl font-semibold mb-4">SOPAPA CODO PVC 40 SIFOLIMP</h4>
-            <button className="px-6 py-2 bg-cyan-500 text-black rounded-full font-semibold hover:bg-cyan-400 transition">
-              Más Información
-            </button>
+            <a
+  href="#presupues"
+  className="px-6 py-2 bg-[#05aced] text-black rounded-full font-semibold hover:bg-cyan-400 transition"
+>
+  Más Información
+</a>
+
           </div>
         </div>
 
         {/* CONTACTO */}
-      <section className="py-20 px-4 bg-black text-white mt-15 text-center">
+      <section id="presupues" className="py-20 px-4 bg-black text-white mt-15 text-center">
         
         <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
     Pedí tu presupuesto

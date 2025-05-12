@@ -44,7 +44,6 @@ export default function RootLayout({
 
             {/* Menú */}
             <nav className="hidden md:flex space-x-6">
-              <a href="#servicios" className={`${poppins.className} text-black font-extrabold`}>Servicios</a>
               <a href="#productos" className={`${poppins.className} text-black font-extrabold`}>Productos</a>
               <a href="#nosotros" className={`${poppins.className} text-black font-extrabold`}>Nosotros</a>
               <a href="#contacto" className={`${poppins.className} text-black font-extrabold`}>Contacto</a>
@@ -63,9 +62,11 @@ export default function RootLayout({
           <p>Diseño inspirado en materialesnuevacasa.com.ar</p>
         </footer>
 
-        {/* Botón flotante de WhatsApp */}
+      
+
+      {/* Botón flotante de WhatsApp */}
 <a
-  href="https://wa.me/5491123456789"
+  href="https://wa.me/1127712390"
   target="_blank"
   rel="noopener noreferrer"
   className="fixed bottom-6 right-6 z-50"
@@ -76,9 +77,8 @@ export default function RootLayout({
     className="w-16 h-16 md:w-20 md:h-20 hover:scale-110 transition-transform duration-300"
   />
 </a>
+</body>
 
-
-      </body>
-    </html>
+</html>
   );
 }

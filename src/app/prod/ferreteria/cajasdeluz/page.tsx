@@ -36,11 +36,12 @@ export default function AditivosVinilicos() {
     Cajas de Luz
   </h2>
 
-  <p className="text-black text-sm mb-4 font-bold w-full text-center">
-    <p>- BARRETA 40cm</p>
-    <p>- BARRETA 50cm</p>
-    <p>- BARRETA 60cm</p>
-    <p>- BARRETA 100cm</p>
+  <p className="text-black text-sm mb-4 font-bold w-full text-center space-y-1">
+    <p>- CAJA RECTANGULAR HIERRO</p>
+    <p>- CAJA OCTOGONAL HIERRO</p>
+    <p>- CAJA MIGNON HIERRO</p>
+    <p>- CAJA OCTOGONAL GRANDE</p>
+    <p>- CAJA CUADRADA GRANDE</p>
   </p>
 
   <button className="bg-[#05aced] text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-600 transition">

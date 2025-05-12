@@ -7,13 +7,13 @@ const poppins = Poppins({
 
 export default function CapeaItalianaPage() {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-black via-neutral-900 to-black py-20 px-4">
+      <div className="min-h-screen bg-gradient-to-b bg-black py-20 px-4">
         <h2 className={`${poppins.className}text-white text-6xl font-extrabold text-center mb-16`}>Línea Mónaco</h2>
   <section>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
   
           {/* Tarjeta 1 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/RhBnyZpQ/Screenshot-2025-05-01-at-6-27-13-PM.png"
@@ -23,10 +23,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Bidet 3A</h3>
-              <p className="text-gray-400 mb-4">Línea premium de inodoros con diseño italiano y acabado brillante.</p>
+              <p className="text-gray-400 mb-4">Diseño ergonómico y moderno con máxima eficiencia en el uso diario.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#hablanos"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -34,7 +34,7 @@ export default function CapeaItalianaPage() {
           </div>
   
           {/* Tarjeta 2 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/XJ8VNN7g/Screenshot-2025-05-01-at-6-29-16-PM.png"
@@ -44,10 +44,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Inodoro Largo</h3>
-              <p className="text-gray-400 mb-4">Comodidad y estética moderna con terminaciones suaves y elegantes.</p>
+              <p className="text-gray-400 mb-4">Estructura robusta y estética ideal para baños contemporáneos.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#hablanos"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -55,7 +55,7 @@ export default function CapeaItalianaPage() {
           </div>
   
           {/* Tarjeta 3 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/Xv63wBr8/Screenshot-2025-05-01-at-6-31-07-PM.png"
@@ -65,10 +65,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Apoyo Dual</h3>
-              <p className="text-gray-400 mb-4">Funcionalidad y estilo en un diseño compacto y de alta calidad.</p>
+              <p className="text-gray-400 mb-4">Doble función con diseño compacto y descarga eficiente.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#hablanos"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -78,7 +78,7 @@ export default function CapeaItalianaPage() {
         </div>
         </section>
 
-        <section className="py-20 px-4 bg-black text-white text-center">
+        <section id="hablanos" className="py-20 px-4 bg-black mt-25 text-white text-center">
         
         <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
     Pedí tu presupuesto

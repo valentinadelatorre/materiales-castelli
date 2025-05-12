@@ -13,7 +13,7 @@ export default function CapeaItalianaPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
   
           {/* Tarjeta 1 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/nz2WjyJZ/Screenshot-2025-05-01-at-5-30-26-PM.png"
@@ -23,10 +23,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Bidet 3A</h3>
-              <p className="text-gray-400 mb-4">Línea premium de inodoros con diseño italiano y acabado brillante.</p>
+              <p className="text-gray-400 mb-4">Higiene superior con diseño ergonómico y elegante.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#sanitarios"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -34,7 +34,7 @@ export default function CapeaItalianaPage() {
           </div>
   
           {/* Tarjeta 2 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/x8kPfhj6/Screenshot-2025-05-01-at-5-33-12-PM.png"
@@ -44,10 +44,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Columna</h3>
-              <p className="text-gray-400 mb-4">Comodidad y estética moderna con terminaciones suaves y elegantes.</p>
+              <p className="text-gray-400 mb-4">Diseño estilizado para baños modernos y funcionales.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#sanitarios"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -55,7 +55,7 @@ export default function CapeaItalianaPage() {
           </div>
   
           {/* Tarjeta 3 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/6q3ByVFj/Screenshot-2025-05-01-at-5-42-46-PM.png"
@@ -65,10 +65,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Inodoro Corto</h3>
-              <p className="text-gray-400 mb-4">Funcionalidad y estilo en un diseño compacto y de alta calidad.</p>
+              <p className="text-gray-400 mb-4">Ideal para espacios reducidos sin perder confort.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#sanitarios"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -81,7 +81,7 @@ export default function CapeaItalianaPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto mt-20">
   
           {/* Tarjeta 4 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/7PGH89Mh/Screenshot-2025-05-01-at-5-49-13-PM.png"
@@ -91,10 +91,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Inodoro Largo</h3>
-              <p className="text-gray-400 mb-4">Línea premium de inodoros con diseño italiano y acabado brillante.</p>
+              <p className="text-gray-400 mb-4">Mayor confort y estilo en un diseño versátil y resistente.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#sanitarios"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -102,7 +102,7 @@ export default function CapeaItalianaPage() {
           </div>
   
           {/* Tarjeta 5 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/FKztbFTz/Screenshot-2025-05-01-at-5-51-52-PM.png"
@@ -112,10 +112,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Lavatorio 495 3A</h3>
-              <p className="text-gray-400 mb-4">Comodidad y estética moderna con terminaciones suaves y elegantes.</p>
+              <p className="text-gray-400 mb-4">Practicidad y diseño compacto para baños modernos.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#sanitarios"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -123,7 +123,7 @@ export default function CapeaItalianaPage() {
           </div>
   
           {/* Tarjeta 6 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/ht4NgPWs/Screenshot-2025-05-01-at-5-54-27-PM.png"
@@ -133,10 +133,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Lavatorio 540 3A</h3>
-              <p className="text-gray-400 mb-4">Funcionalidad y estilo en un diseño compacto y de alta calidad.</p>
+              <p className="text-gray-400 mb-4">Amplia superficie y elegancia para el uso diario.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#sanitarios"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -156,7 +156,7 @@ export default function CapeaItalianaPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto mt-20">
   
           {/* Tarjeta 7 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/VLJbhX5W/Screenshot-2025-05-01-at-6-03-12-PM.png"
@@ -166,10 +166,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Depósito Apoyo</h3>
-              <p className="text-gray-400 mb-4">Línea premium de inodoros con diseño italiano y acabado brillante.</p>
+              <p className="text-gray-400 mb-4">Instalación sencilla y excelente rendimiento en cada descarga.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#sanitarios"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -177,7 +177,7 @@ export default function CapeaItalianaPage() {
           </div>
   
           {/* Tarjeta 8 */}
-          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-cyan-500/30 overflow-hidden transition hover:scale-[1.03] duration-500">
+          <div className="bg-neutral-900 rounded-3xl shadow-2xl shadow-[#05aced] overflow-hidden transition hover:scale-[1.03] duration-500">
             <div className="relative w-full h-60">
               <img
                 src="https://i.postimg.cc/7Y1bdXw7/Screenshot-2025-05-01-at-6-06-50-PM.png"
@@ -187,10 +187,10 @@ export default function CapeaItalianaPage() {
             </div>
             <div className="p-6 text-center">
               <h3 className="text-white text-xl font-bold mb-2">Depósito a Codo</h3>
-              <p className="text-gray-400 mb-4">Comodidad y estética moderna con terminaciones suaves y elegantes.</p>
+              <p className="text-gray-400 mb-4">Diseño funcional adaptable a espacios reducidos.</p>
               <a
-                href="#"
-                className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
+                href="#sanitarios"
+                className="bg-[#05aced] hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-full transition"
               >
                 Lo quiero!
               </a>
@@ -206,7 +206,7 @@ export default function CapeaItalianaPage() {
 
         </section>
 
-        <section className="py-20 px-4 bg-black text-white text-center">
+        <section id="sanitarios" className="py-20 px-4 bg-black text-white text-center">
         
         <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
     Pedí tu presupuesto

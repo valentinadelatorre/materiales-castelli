@@ -23,7 +23,6 @@ export default function Home() {
 
     {/* Menú a la derecha */}
     <nav className="hidden md:flex space-x-6">
-  <a href="#servicios" className={`${poppins.className} text-black font-extrabold`}>Servicios</a>
   <a href="#productos" className={`${poppins.className} text-black font-extrabold`}>Productos</a>
   <a href="#nosotros" className={`${poppins.className} text-black font-extrabold`}>Nosotros</a>
   <a href="#contacto" className={`${poppins.className} text-black font-extrabold`}>Contacto</a>
@@ -36,6 +35,16 @@ export default function Home() {
 
       {/* HERO */}
     <section>
+      {/* Título principal sobre HERO */}
+<div className="text-center text-white mb-5">
+  <h1 className="text-5xl md:text-6xl mt-15 font-extrabold leading-tight">
+    Líderes en abastecimiento <br /> de materiales para la construcción
+  </h1>
+  <p className="mt-8 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+    Descubre nuestra gama extensa de materiales de alta calidad, desde áridos hasta bloques de hormigón. ¡Tu proyecto empieza con nosotros!
+  </p>
+</div>
+
       <div className="relative min-h-screen flex items-center justify-center bg-black p-8">
 
   {/* Imagen principal */}
@@ -87,7 +96,7 @@ export default function Home() {
 
       {/* PRODUCTOS */}
       
-  <section id="productos" className="relative z-20 -mt-10 px-4 py-16 bg-[#e0f2fe] rounded-t-3xl shadow-xl max-w-7xl mx-auto">
+  <section id="productos" className="relative z-20 mt-20 px-4 py-16 bg-[#e0f2fe] rounded-t-3xl shadow-xl max-w-7xl mx-auto">
   <h1 className={`${poppins.className} text-5xl font-bold text-center mb-10`}>Productos</h1>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
@@ -136,55 +145,92 @@ export default function Home() {
 
 
       {/* PRODUCTOS DESTACADOS */}
-<section className="py-20 px-4 bg-black text-center">
+      <section className="py-20 px-4 bg-black text-center">
   <h2 className={`${poppins.className} text-5xl text-white font-extrabold mb-10`}>Productos destacados</h2>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto drop-shadow-[0_10px_25px_#05aced]">
     
-  <div
-  className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
-  style={{ backgroundImage: "url('https://i.postimg.cc/52KzQfjG/Screenshot-2025-04-24-at-10-42-27-PM.png')" }} // poné tu ruta o URL aquí
->
-      <button className="mt-4 w-full bg-[#05aced] text-white py-2 rounded-md hover:bg-blue-600 font-extrabold transition">Bolsa de Cemento</button>
+    <div
+      className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
+      style={{ backgroundImage: "url('https://i.postimg.cc/52KzQfjG/Screenshot-2025-04-24-at-10-42-27-PM.png')" }}
+    >
+      <a href="/productos/obragruesa/Cemento" className="mt-4 w-full bg-[#05aced] text-black py-2 rounded-md hover:bg-blue-600 font-extrabold transition text-center block">
+        Bolsa de Cemento
+      </a>
     </div>
 
     <div
-  className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
-  style={{ backgroundImage: "url('https://i.postimg.cc/3xsjNKkB/Screenshot-2025-04-24-at-10-40-54-PM.png')" }} // poné tu ruta o URL aquí
->
-      <button className="mt-4 w-full bg-[#05aced] text-white py-2 rounded-md hover:bg-blue-600 font-extrabold transition">Áridos en Bolsón</button>
+      className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
+      style={{ backgroundImage: "url('https://i.postimg.cc/3xsjNKkB/Screenshot-2025-04-24-at-10-40-54-PM.png')" }}
+    >
+      <a href="/productos/obragruesa/Aridosenbolson" className="mt-4 w-full bg-[#05aced] text-black py-2 rounded-md hover:bg-blue-600 font-extrabold transition text-center block">
+        Áridos en Bolsón
+      </a>
     </div>
 
     <div
-  className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
-  style={{ backgroundImage: "url('https://i.postimg.cc/90wNRcdY/Screenshot-2025-04-24-at-10-50-55-PM.png')" }} // poné tu ruta o URL aquí
->
-
-      <button className="mt-4 w-full bg-[#05aced] text-white py-2 rounded-md hover:bg-blue-600 font-extrabold transition">Ladrillos Huecos</button>
+      className="relative bg-white rounded-xl shadow-lg transform hover:-translate-y-2 hover:scale-105 transition duration-300 h-[400px] w-full bg-cover bg-center flex flex-col justify-end p-6"
+      style={{ backgroundImage: "url('https://i.postimg.cc/90wNRcdY/Screenshot-2025-04-24-at-10-50-55-PM.png')" }}
+    >
+      <a href="/productos/obragruesa/Ladrilloshuecos" className="mt-4 w-full bg-[#05aced] text-black py-2 rounded-md hover:bg-blue-600 font-extrabold transition text-center block">
+        Ladrillos Huecos
+      </a>
     </div>
 
   </div>
 </section>
 
 
+
       
 
       {/* CONTACTO */}
-      <section className="py-20 px-4 bg-black text-white text-center">
+      <section id="contacto" className="py-20 px-4 bg-black text-white text-center">
         
       <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
   Pedí tu presupuesto
 </h2>
 
-        <form className="max-w-2xl mx-auto space-y-4">
-          <input type="text" placeholder="Nombre" className="w-full p-3 rounded border text-white" />
-          <input type="email" placeholder="Email" className="w-full p-3 rounded border" />
-          <textarea placeholder="Mensaje" className="w-full p-3 rounded border h-32" />
-          <input type="file" className="w-full" />
-          <button type="submit" className="w-full bg-[#05aced] text-white py-3 rounded">
-            Enviar mensaje
-          </button>
-        </form>
+<form
+  className="max-w-2xl mx-auto space-y-4"
+  action="https://formsubmit.co/materialescastelli@gmail.com"
+  method="POST"
+>
+  <input
+    type="text"
+    name="name"
+    placeholder="Nombre"
+    required
+    className="w-full p-3 rounded border text-white"
+  />
+  <input
+    type="email"
+    name="email"
+    placeholder="Email"
+    required
+    className="w-full p-3 rounded border"
+  />
+  <textarea
+    name="message"
+    placeholder="Mensaje"
+    required
+    className="w-full p-3 rounded border h-32"
+  ></textarea>
+  <input
+    type="file"
+    name="attachment"
+    className="w-full"
+  />
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_next" value="https://tusitio.com/gracias" /> {/* cambiá por tu URL de éxito si querés */}
+  <button
+    type="submit"
+    className="w-full bg-[#05aced] font-bold text-white py-3 rounded"
+  >
+    Enviar mensaje
+  </button>
+</form>
+
         <p className="mt-6">📞 1127712390 | 📞 1160288911</p>
         <p>📧 materialescastelli@gmail.com</p>
       </section>
@@ -226,7 +272,7 @@ export default function Home() {
 
 
        {/* NOSOTROS */}
-       <section className="py-20 px-4 bg-black text-white text-center">
+       <section id= "nosotros" className="py-20 px-4 bg-black text-white text-center">
     
 
        <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
@@ -240,12 +286,6 @@ export default function Home() {
     </p>
   </section>
       
-
-      {/* FOOTER */}
-      <footer className="bg-black  text-white py-10 text-center text-sm">
-        <p>&copy; 2025 Materiales Castelli. Todos los derechos reservados.</p>
-        <p>Diseño inspirado en materialesnuevacasa.com.ar</p>
-      </footer>
     </main>
   );
 }

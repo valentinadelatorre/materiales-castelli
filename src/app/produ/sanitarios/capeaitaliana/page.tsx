@@ -206,7 +206,7 @@ export default function CapeaItalianaPage() {
 
         </section>
 
-        <section id="sanitarios" className="py-20 px-4 bg-black text-white text-center">
+        <section id="sanitarios" className="py-20 px-4 mt-25 bg-black text-white text-center">
         
         <h2 className={`${poppins.className} text-5xl font-bold mb-6`}>
     Pedí tu presupuesto
